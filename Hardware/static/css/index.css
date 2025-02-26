@@ -27,10 +27,10 @@ body {
   font-family: 'Google Sans', sans-serif;
 }
 
-
+/*
 .publication-title {
 }
-
+*/
 .publication-banner {
   max-height: parent;
 
@@ -43,10 +43,10 @@ body {
   transform: none;
   object-fit: fit;
 }
-
+/*
 .publication-header .hero-body {
 }
-
+*/
 .publication-title {
     font-family: 'Google Sans', sans-serif;
 }
@@ -66,10 +66,10 @@ body {
     width: fit-content;
     font-weight: bolder;
 }
-
+/*
 .publication-authors {
 }
-
+*/
 .publication-authors a {
    color: hsl(204, 86%, 53%) !important;
 }
@@ -81,13 +81,14 @@ body {
 .author-block {
   display: inline-block;
 }
-
+/*
 .publication-banner img {
 }
 
 .publication-authors {
-  /*color: #4286f4;*/
-}
+  color: #4286f4;
+} 
+*/
 
 .publication-video {
     position: relative;
@@ -107,8 +108,10 @@ body {
     height: 100%;
 }
 
+/*
 .publication-body img {
 }
+*/
 
 .results-carousel {
   overflow: hidden;
@@ -128,8 +131,8 @@ body {
 }
 
 .element-block{
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .interpolation-panel {
@@ -141,10 +144,10 @@ body {
   width: 100%;
   border-radius: 5px;
 }
-
+/*
 .interpolation-video-column {
 }
-
+*/
 .interpolation-panel .slider {
   margin: 0 !important;
 }
