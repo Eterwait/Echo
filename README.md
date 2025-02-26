@@ -3,4 +3,4 @@ This repository contains the code for launching Echo, an open-source low-cost te
 
 Feel free to visit our [website](https://eterwait.github.io/Echo/) for more information!
 
-### Tutorial
+### Installation Tutorial
