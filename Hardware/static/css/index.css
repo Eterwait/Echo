@@ -156,34 +156,3 @@ body {
   border-radius: 5px;
 }
 
-.interpolation-panel {
-  display: flex;
-  justify-content: center;
-  align-items: flex-start; /* Align items at the top for consistent starting point */
-}
-
-.image-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center; /* Center the image and caption vertically within the column */
-  align-items: center; /* Center horizontally */
-  min-height: 300px; /* Optional: Set a minimum height to ensure all columns are the same height */
-}
-
-.interpolation-image {
-  max-width: 100%; /* Ensure images don’t overflow their containers */
-  height: auto; /* Maintain aspect ratio */
-  margin-bottom: 10px; /* Space between image and caption */
-}
-
-.caption {
-  margin: 0; /* Remove default margins */
-  line-height: 1.2; /* Consistent line height for text */
-  text-align: center; /* Center the caption text */
-  padding: 5px; /* Optional: Add padding for better spacing */
-}
-
-/* Ensure bold text doesn’t affect alignment */
-.is-bold {
-  font-weight: bold;
-}
