@@ -11,7 +11,7 @@ Installation description
 
 ### Assembly Tutorial
 
-Please visit this link.
+Please visit this [link](https://eterwait.github.io/Echo/Tutorial).
 
 
 
