@@ -4,3 +4,17 @@ This repository contains the code for launching Echo, an open-source teleoperati
 Feel free to visit our [website](https://eterwait.github.io/Echo/) for more information!
 
 ### Installation Tutorial
+
+
+
+### Assembly Tutorial
+
+Please visit this link.
+
+
+
+### Citation
+
+```
+Future citation here
+```
