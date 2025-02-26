@@ -13,6 +13,10 @@ Installation description
 
 Please visit this [link](https://eterwait.github.io/Echo/Assembly).
 
+### Hardware Tutorial
+
+Please visit this [link](https://eterwait.github.io/Echo/Hardware).
+
 ### Citation
 
 ```
