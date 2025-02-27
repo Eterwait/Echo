@@ -28,8 +28,7 @@ body {
 }
 
 
-.publication-title {
-}
+
 
 .publication-banner {
   max-height: parent;
@@ -44,8 +43,7 @@ body {
   object-fit: fit;
 }
 
-.publication-header .hero-body {
-}
+
 
 .publication-title {
     font-family: 'Google Sans', sans-serif;
@@ -67,8 +65,6 @@ body {
     font-weight: bolder;
 }
 
-.publication-authors {
-}
 
 .publication-authors a {
    color: hsl(204, 86%, 53%) !important;
@@ -82,12 +78,6 @@ body {
   display: inline-block;
 }
 
-.publication-banner img {
-}
-
-.publication-authors {
-  /*color: #4286f4;*/
-}
 
 .publication-video {
     position: relative;
@@ -107,8 +97,7 @@ body {
     height: 100%;
 }
 
-.publication-body img {
-}
+
 
 .results-carousel {
   overflow: hidden;
@@ -138,8 +127,6 @@ body {
   border-radius: 5px;
 }
 
-.interpolation-video-column {
-}
 
 .interpolation-panel .slider {
   margin: 0 !important;
@@ -154,4 +141,19 @@ body {
 }
 #interpolation-image-wrapper img {
   border-radius: 5px;
+}
+
+/*Tabs*/
+
+.tabcontent {
+  display: none; /* Скрываем все содержимое вкладок по умолчанию */
+}
+
+.tabcontent.active {
+  display: block; /* Показываем только активную вкладку */
+}
+
+.tabs .is-active a {
+  background-color: #fff; /* Цвет активной вкладки, можно настроить */
+  border-bottom:  none; /* Убираем нижнюю границу для активной вкладки */
 }
