@@ -1,0 +1,6 @@
+conda create -n echo python=3.10 -y
+conda activate echo
+conda install ipykernel ipywidgets pandas matplotlib numpy pyserial tqdm -y
+pip install ur_rtde
+pip install pyrealsense2
+pip install opencv-contrib-python
