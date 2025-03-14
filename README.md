@@ -1,24 +1,3 @@
 ## Welcome to Echo!
-This repository contains the code for launching Echo, an open-source teleoperation system with force feedback. 
+This is **/pages** branch for our website. You should switch to the **/main** instead to download code and receive general information about Echo. 
 
-Feel free to visit our [website](https://eterwait.github.io/Echo/) for more information!
-
-
-### Installation Tutorial
-
-Installation description
-
-
-### Assembly Tutorial
-
-Please visit this [link](https://eterwait.github.io/Echo/Assembly).
-
-### Hardware Tutorial
-
-Please visit this [link](https://eterwait.github.io/Echo/Hardware).
-
-### Citation
-
-```
-Future citation here
-```
