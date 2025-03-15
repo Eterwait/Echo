@@ -141,6 +141,21 @@ body {
   border-radius: 5px;
 }
 
+/*Tabs*/
+
+.tabcontent {
+  display: none; /* Скрываем все содержимое вкладок по умолчанию */
+}
+
+.tabcontent.active {
+  display: block; /* Показываем только активную вкладку */
+}
+
+.tabs .is-active a {
+  background-color: #fff; /* Цвет активной вкладки, можно настроить */
+  border-bottom:  none; /* Убираем нижнюю границу для активной вкладки */
+}
+
 /*Mine*/
 
 .vid{
