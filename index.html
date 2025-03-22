@@ -131,18 +131,24 @@
   <div class="hero-body">
     <div class="container is-max-desktop content"> 
       <div class="columns interpolation-panel">
-        <div class="column is-1">
-        </div>
+        <div class="column is-1"></div>
         <div class="column is-10 vid">
-          <video poster="" autoplay muted controls playsinline height="100%" loop >
-            <source src="./static/videos/main.mp4#t=96"
-                    type="video/mp4">
+          <video poster="" autoplay muted controls playsinline height="100%" loop>
+            <source src="./static/videos/main.mp4" type="video/mp4">
+          </video>
         </div>
-        <div class="column is-1">
-        </div>
+        <div class="column is-1"></div>
       </div>
+    </div>
   </div>
 </section>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    const video = document.querySelector("video");
+    video.currentTime = 96; // Устанавливаем начальную позицию на 96 секунд
+  });
+</script>
 
 <!--
 <section class="hero is-light is-small">
