@@ -181,10 +181,10 @@ th {
 
 /* Выравнивание первого столбца (No.) по левому краю */
 td:nth-child(1) {
-  text-align: left;
+  text-align: right;
 }
 
 /* Выравнивание третьего столбца (Quantity) по левому краю */
 td:nth-child(3) {
-  text-align: left;
+  text-align: right;
 }
