@@ -14,14 +14,15 @@ Feel free to visit our [website](https://eterwait.github.io/Echo/) for more info
 
 ### Assembly Tutorial
 
-Please visit this [link](https://eterwait.github.io/Echo/Assembly).
+Assembling Echo is much simpler with our tutorial videos and detailed description in the [Assembly Tutorial](https://eterwait.github.io/Echo/Assembly). Check it out to get started! 
 
 ### Hardware Tutorial
 
-Please visit this [link](https://eterwait.github.io/Echo/Hardware).
+The mechanical structure of Echo and its electronic components are discussed in detail in our [Hardware Tutorial](https://eterwait.github.io/Echo/Hardware). Feel free to explore it for more information!
 
 ### Citation
 
 ```
 Future citation here
 ```
+
