@@ -166,3 +166,25 @@ body {
 #interpolation-image-wrapper img {
   border-radius: 5px;
 }
+
+/*Mine*/
+
+/* Базовое выравнивание для всех ячеек */
+th, td {
+  text-align: left;
+}
+
+/* Центрирование заголовков */
+th {
+  text-align: center;
+}
+
+/* Выравнивание первого столбца (No.) по левому краю */
+td:nth-child(1) {
+  text-align: left;
+}
+
+/* Выравнивание третьего столбца (Quantity) по левому краю */
+td:nth-child(3) {
+  text-align: left;
+}
