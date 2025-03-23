@@ -14,7 +14,7 @@ Feel free to visit our [website](https://eterwait.github.io/Echo/) for more info
 
 ### Assembly Tutorial
 
-Assembling Echo is much simpler with our tutorial videos and detailed description in the [Assembly Tutorial](https://eterwait.github.io/Echo/Assembly). Check it out to get started! 
+Echo is easy to put together with our [Assembly Tutorial](https://eterwait.github.io/Echo/Assembly) videos and guide. Check it out to get started!
 
 ### Hardware Tutorial
 
