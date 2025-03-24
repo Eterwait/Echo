@@ -3,11 +3,10 @@ This repository contains source materials for Echo, an open-source teleoperation
 
 Feel free to visit our [website](https://eterwait.github.io/Echo/) for more information!
 
-
-### Tutorial
+### Repository content
 
 - **Echo** - main code.
-- **Hardware** - hardware components folder.
+- **Hardware** - 3D models and electronic components.
 - **Bunraky_1.1** - STM32 CubeIDE project files (Bunraky is just an old name of Echo).
 - **Echo.bin** - ready-to-use microcontroller firmware. Download [Cube Programmer](https://www.st.com/en/development-tools/stm32cubeprog.html) and use it to upload the firmware to the board.
 - **Echo.hex** - ready-to-use microcontroller firmware.
