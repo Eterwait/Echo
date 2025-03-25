@@ -37,9 +37,12 @@ function openTab(event, tabName, tabBoxId) {
   event.currentTarget.classList.add("is-active");
 }
 
-// Устанавливаем вкладку по умолчанию при загрузке страницы
+// Устанавливаем вкладки по умолчанию при загрузке страницы
 document.addEventListener("DOMContentLoaded", function() {
-  document.getElementById("clickDefault").click(); // Активируем первую вкладку
+  // Активируем первую вкладку в Electronics Assembly
+  document.getElementById("clickDefaultElectronics").click();
+  // Активируем первую вкладку в Mechanics Assembly
+  document.getElementById("clickDefaultMechanics").click();
 });
 
 
