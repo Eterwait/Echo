@@ -192,3 +192,33 @@ td:nth-child(3) {
 h5 {
   margin-top: 40px;
 }
+
+/*Tabs*/
+
+.tabcontent {
+  display: none; /* Скрываем все содержимое вкладок по умолчанию */
+}
+
+.tabcontent.active {
+  display: block; /* Показываем только активную вкладку */
+}
+
+.tabs .is-active a {
+  background-color: #fff; /* Цвет активной вкладки, можно настроить */
+  border-bottom:  none; /* Убираем нижнюю границу для активной вкладки */
+}
+
+/*Mine*/
+
+.intab-text{
+  margin: 30px;
+}
+
+.vid{
+  margin: 5px;
+  overflow: hidden;
+  border: 1px solid #bbb;
+  border-radius: 10px;
+  padding: 0;
+  font-size: 0;
+}

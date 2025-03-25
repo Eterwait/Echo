@@ -19,6 +19,29 @@ function setInterpolationImage(i) {
   $('#interpolation-image-wrapper').empty().append(image);
 }
 
+function openTab(event, tabName, tabBoxId) {
+  // Получаем все элементы с классом "tabcontent" внутри указанного tabBoxId
+  var tabContents = document.querySelectorAll(`#${tabBoxId} .tabcontent`);
+  tabContents.forEach(function(tab) {
+    tab.classList.remove("active"); // Убираем класс active у всех вкладок
+  });
+
+  // Получаем все элементы с классом "tablinks" внутри указанного tabBoxId
+  var tabLinks = document.querySelectorAll(`#${tabBoxId} .tablinks`);
+  tabLinks.forEach(function(link) {
+    link.classList.remove("is-active"); // Убираем класс is-active у всех кнопок
+  });
+
+  // Показываем выбранную вкладку и отмечаем кнопку как активную
+  document.getElementById(tabName).classList.add("active");
+  event.currentTarget.classList.add("is-active");
+}
+
+// Устанавливаем вкладку по умолчанию при загрузке страницы
+document.addEventListener("DOMContentLoaded", function() {
+  document.getElementById("clickDefault").click(); // Активируем первую вкладку
+});
+
 
 $(document).ready(function() {
     // Check for click events on the navbar burger icon
