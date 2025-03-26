@@ -199,7 +199,7 @@
       </p>
 
       <p>
-        Note that in the Right Echo and Left Echo, the arrangement of the stopping screws on the two upper short joints is different.
+        Note that in the Echo right and Echo left, the arrangement of the stopping screws on the two upper short joints is different.
       </p>
 
       <div align-items="top" class="columns interpolation-panel">
@@ -207,13 +207,13 @@
         <div class="column is-4 has-text-centered">
           <img src="./static/Mechanical structure/LS_upper_short_right.png"
                 class="interpolation-image"/>
-          <p><b>Limit screws in the two upper short joints of the Right Echo</b></p>
+          <p><b>Limit screws in the two upper short joints of the Echo right</b></p>
         </div>
   
         <div class="column is-4 has-text-centered">
           <img src="./static/Mechanical structure/LS_upper_short_left.png"
                 class="interpolation-image"/>
-          <p><b>Limit screws in the two upper short joints of the Left Echo</b></p>
+          <p><b>Limit screws in the two upper short joints of the Echo left</b></p>
         </div>
   
         <div class="column is-4 has-text-centered">
@@ -273,6 +273,20 @@
         Finally, two ECHO.000.001.001 - Wall components cover the connector and wires after the Commutation PCB is connected.
       </p>
 
+      
+    <div align-items="top" class="columns interpolation-panel">
+
+      <div class="column is-3">
+      </div>
+
+      <div class="column is-6 has-text-centered">
+        <img src="./static/Mechanical structure/Tongue.png"
+              class="interpolation-image"/>
+        <p><b>Tongue</b></p>
+      </div>
+
+    </div>
+
       <table>
         <thead>
           <tr>
@@ -320,6 +334,18 @@
     <div align-items="top" class="columns interpolation-panel">
 
       <div class="column is-6 has-text-centered">
+        <div align-items="top" class="columns interpolation-panel">
+        
+          <div class="column is-3">
+          </div>
+        
+          <div class="column is-6 has-text-centered">
+            <img src="./static/Mechanical structure/Tongue.png"
+                  class="interpolation-image"/>
+            <p><b>Tongue</b></p>
+          </div>
+        
+        </div>
         <img src="./static/Mechanical structure/short_upview_exploded.png"
               class="interpolation-image"/>
         <p><b>Short joint exploded — upview</b></p>
@@ -569,29 +595,16 @@
 
 <div align-items="top" class="columns interpolation-panel">
 
-  <div class="column is-2">
-  </div>
-
-  <div class="column is-8 has-text-centered">
+  <div class="column is-6 has-text-centered">
     <img src="./static/Mechanical structure/joystick_trigger.png"
           class="interpolation-image"/>
     <p><b>Joystick trigger</b></p>
   </div>
 
-</div>
-
-<div align-items="top" class="columns interpolation-panel">
-
   <div class="column is-6 has-text-centered">
     <img src="./static/Mechanical structure/trigger.png"
           class="interpolation-image"/>
     <p><b>Trigger</b></p>
-  </div>
-
-  <div class="column is-6 has-text-centered">
-    <img src="./static/Mechanical structure/Tongue.png"
-          class="interpolation-image"/>
-    <p><b>Tongue</b></p>
   </div>
 
 </div>
@@ -896,10 +909,22 @@
   <div class="column is-6 has-text-centered">
     <img src="./static/Mechanical structure/gripper.png"
           class="interpolation-image"/>
-    <p><b>Robotique 2F-85 with force finger</b></p>
+    <p><b>Robotiq 2F-85 with force finger</b></p>
   </div>
 
 </div>
+
+<p>
+  For gripping and force feedback, we integrated an RP-C7.6-LT force sensor into a custom-designed gripper finger on the Robotiq 2F-85. 
+  This setup provides force feedback across the entire end effector surface while improving adaptability and protecting the sensor.
+</p>
+<p>
+  The working principle of our mechanism involves a rod, integrated into the pad structure, pressing against the RP-C7.6-LT force sensor through a rubber sheet. 
+  Springs return the pad to its original position once the force is released, while guide screws secure it to the structure.
+  The Soft-Touch Anti-Slip Silicone Pad is made from two-component silicone using a 3D-printed PLA mold. 
+  This pad prevents slipping, ensures uniform force distribution, and allows gentle gripping of objects.
+  The 3D model of the mold is available on GitHub.
+</p>      
 
 <div align-items="top" class="columns interpolation-panel">
 
@@ -912,7 +937,7 @@
   <div class="column is-4 has-text-centered">
     <img src="./static/Mechanical structure/force_finger_x3.png"
           class="interpolation-image"/>
-    <p><b>Force finger</b></p>
+    <p><b>Force finger working principle</b></p>
   </div>
 
 </div>
@@ -986,15 +1011,9 @@
   <tbody>
     <tr>
       <td>1</td>
-      <td>TECNA 9311</td>
+      <td>TECNA 9311 (any 0.6-1.5 kg spring balancer will suffice)</td>
       <td>4</td>
       <td><a href="https://aliexpress.ru/item/1005007048928678.html?sku_id=12000039225426435&spm=a2g2w.productlist.search_results.0.4e993b36vdL5Uq" target="_blank">Aliexpress</a></td>
-    </tr>
-    <tr>
-      <td>2</td>
-      <td>Spring balancer 0,6-1,5 kg</td>
-      <td>4</td>
-      <td><a href="https://aliexpress.ru/item/1005008434676286.html?sku_id=12000045089260987&spm=a2g2w.productlist.search_results.5.4a70502dt2ObWI" target="_blank">Aliexpress</a></td>
     </tr>
   </tbody>
 </table>
@@ -1534,7 +1553,8 @@
 <section id="Contact" class="section" >
   <div class="container is-max-desktop content">
     <h2 class="title">Contact</h2>
-    <p>If you have any questions, please feel free to contact Artem Bazhenov.</p>
+    <p>If you have any questions, please feel free to contact Artem Bazhenov(<a href="t.me/artbazh95">Telegram</a> | artbazh95@gmail.com) 
+      or Sergei Satsevich <a href="t.me/Alfasaz">Telegram</a></p>
   </div>
 </section>
 
