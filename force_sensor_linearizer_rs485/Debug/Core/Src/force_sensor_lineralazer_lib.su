@@ -1,0 +1,9 @@
+../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_ll_usart.h:2591:26:LL_USART_IsActiveFlag_TC	16	static
+../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_ll_usart.h:2602:26:LL_USART_IsActiveFlag_TXE	16	static
+../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_ll_usart.h:2836:22:LL_USART_ClearFlag_TC	16	static
+../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_ll_usart.h:3527:22:LL_USART_TransmitData8	16	static
+../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_ll_gpio.h:878:22:LL_GPIO_SetOutputPin	16	static
+../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_ll_gpio.h:907:22:LL_GPIO_ResetOutputPin	16	static
+../Core/Src/force_sensor_lineralazer_lib.c:10:6:transmitData	32	static
+../Core/Src/force_sensor_lineralazer_lib.c:24:6:clearBufferAndCounter	8	static
+../Core/Src/force_sensor_lineralazer_lib.c:34:6:readADCchannels	16	static

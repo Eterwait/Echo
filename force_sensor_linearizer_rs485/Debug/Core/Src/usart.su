@@ -1,0 +1,10 @@
+../Drivers/CMSIS/Include/core_cm4.h:1676:26:__NVIC_GetPriorityGrouping	4	static
+../Drivers/CMSIS/Include/core_cm4.h:1688:22:__NVIC_EnableIRQ	16	static
+../Drivers/CMSIS/Include/core_cm4.h:1816:22:__NVIC_SetPriority	16	static
+../Drivers/CMSIS/Include/core_cm4.h:1863:26:NVIC_EncodePriority	40	static
+../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_ll_bus.h:285:22:LL_AHB1_GRP1_EnableClock	24	static
+../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_ll_bus.h:849:22:LL_APB2_GRP1_EnableClock	24	static
+../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_ll_usart.h:537:22:LL_USART_Enable	16	static
+../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_ll_usart.h:2260:22:LL_USART_ConfigAsyncMode	16	static
+../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_ll_usart.h:3195:22:LL_USART_DisableIT_CTS	40	static,ignoring_inline_asm
+../Core/Src/usart.c:29:6:MX_USART1_UART_Init	64	static
