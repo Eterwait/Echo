@@ -20,7 +20,7 @@ Echo is easy to put together with our [Hardware & Assembly Tutorial](https://ete
 ```
 @misc{bazhenov2025echoopensourcelowcostteleoperation,
       title={Echo: An Open-Source, Low-Cost Teleoperation System with Force Feedback for Dataset Collection in Robot Learning}, 
-      author={Artem Bazhenov and Sergei Satsevich and Sergei Egorov and Farit Khabibullin and Dzmitry Tsetserukou},
+      author={Artem Bazhenov and Sergei Satsevich and Sergei Egorov and Dzmitry Tsetserukou},
       year={2025},
       eprint={2504.07939},
       archivePrefix={arXiv},
