@@ -250,6 +250,7 @@ h5 {
 .table-header::-webkit-details-marker {
   display: inline; /* Восстанавливаем маркер в Webkit */
 }
+
 .table-header:hover {
   background-color: #4A4A4A;
   color: #fff;
@@ -257,12 +258,13 @@ h5 {
 .table-header:hover th {
   color: #fff;
 }
+
 .table-header::before {
   content: '';
   position: absolute;
   left: -20px; /* Смещение стрелки за пределы */
   top: 50%;
-  transform: translateY(-50%);
+  transform: translateY(-50%) rotate(-90deg);
   width: 0;
   height: 0;
   border-left: 5px solid transparent;
