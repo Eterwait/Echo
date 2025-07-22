@@ -253,17 +253,36 @@ h5 {
 
 .table-header {
   cursor: pointer;
-  list-style: none;
+  background-color: #fff;
+  color: #4A4A4A;
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
-  transition: background-color 0.2s ease, color 0.2s ease;
+  transition: background-color 0.5s ease, color 0.5s ease;
+  position: relative;
+  padding-right: 25px; /* Дополнительное место для стрелки */
 }
 .table-header::-webkit-details-marker {
-  display: none;
+  display: none; /* Скрываем встроенный маркер */
 }
 .table-header:hover {
-  background-color: #363636;
+  background-color: #4A4A4A;
   color: #fff;
+}
+.table-header:hover th {
+  color: #fff;
+}
+.table-header::after {
+  content: '▼'; /* Стрелка вниз */
+  position: absolute;
+  right: -20px; /* Выносим за пределы блока */
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 1.2em;
+  transition: transform 0.3s ease;
+}
+.spoiler-table[open] .table-header::after {
+  content: '▲'; /* Стрелка вверх при раскрытии */
+  transform: translateY(-50%) rotate(0deg);
 }
 
 @keyframes slide-down {
