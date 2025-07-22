@@ -222,3 +222,56 @@ h5 {
   padding: 0;
   font-size: 0;
 }
+
+/*Сворачивание таблиц*/
+
+.spoiler-table {
+  transition: all 0.3s ease-in-out;
+  overflow: hidden;
+}
+
+.spoiler-table[open] {
+  animation: slide-down 0.3s ease-in-out;
+}
+
+.spoiler-table:not([open]) {
+  animation: slide-up 0.3s ease-in-out;
+}
+
+.table-header {
+  display: flex;
+  align-items: center;
+  padding: 0.75rem;
+  background-color: #f5f5f5;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.table-row {
+  display: flex;
+  width: 100%;
+}
+
+.table-cell {
+  flex: 1;
+  padding: 0.5rem;
+  border: 1px solid #dbdbdb;
+}
+
+@keyframes slide-down {
+  from {
+    max-height: 3rem;
+  }
+  to {
+    max-height: 1000px; /* Adjust based on table size */
+  }
+}
+
+@keyframes slide-up {
+  from {
+    max-height: 1000px;
+  }
+  to {
+    max-height: 3rem;
+  }
+}
