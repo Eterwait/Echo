@@ -225,6 +225,7 @@ h5 {
 
 /*Сворачивание таблиц*/
 
+/*
 .spoiler-table[open] table tbody {
   animation: fadeIn 0.3s ease-in-out;
 }
@@ -235,8 +236,8 @@ h5 {
   from { opacity: 0; }
   to { opacity: 1; }
 }
+*/
 
-/*
 .spoiler-table {
   transition: all 0.3s ease-in-out;
   overflow: hidden;
@@ -267,4 +268,3 @@ h5 {
     max-height: 3rem;
   }
 }
-*/
