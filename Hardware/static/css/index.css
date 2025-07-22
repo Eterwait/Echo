@@ -225,6 +225,18 @@ h5 {
 
 /*Сворачивание таблиц*/
 
+.spoiler-table[open] table tbody {
+  animation: fadeIn 0.3s ease-in-out;
+}
+.spoiler-table:not([open]) table tbody {
+  display: none;
+}
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+/*
 .spoiler-table {
   transition: all 0.3s ease-in-out;
   overflow: hidden;
@@ -238,14 +250,12 @@ h5 {
   animation: slide-up 0.3s ease-in-out;
 }
 
-
-
 @keyframes slide-down {
   from {
     max-height: 3rem;
   }
   to {
-    max-height: 1000px; /* Adjust based on table size */
+    max-height: 1000px;
   }
 }
 
@@ -257,3 +267,4 @@ h5 {
     max-height: 3rem;
   }
 }
+*/
