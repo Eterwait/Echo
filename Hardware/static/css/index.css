@@ -254,14 +254,13 @@ h5 {
 .table-header {
   cursor: pointer;
   list-style: none;
-  background-color: #fff;
-  color: #4A4A4A;
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
   transition: background-color 0.5s ease, color 0.5s ease;
+  position: relative; /* Для позиционирования стрелки */
 }
 .table-header::-webkit-details-marker {
-  display: none;
+  display: inline; /* Восстанавливаем маркер в Webkit */
 }
 .table-header:hover {
   background-color: #4A4A4A;
@@ -270,7 +269,26 @@ h5 {
 .table-header:hover th {
   color: #fff;
 }
-
+.table-header {
+  padding-right: 20px; /* Дополнительное место для стрелки */
+}
+.table-header::before {
+  content: '';
+  position: absolute;
+  right: -15px; /* Смещение стрелки за пределы */
+  top: 50%;
+  transform: translateY(-50%);
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid #4A4A4A; /* Цвет стрелки */
+  transition: transform 0.3s ease, border-top-color 0.3s ease;
+}
+.spoiler-table[open] .table-header::before {
+  transform: translateY(-50%) rotate(180deg); /* Поворот стрелки вверх */
+  border-top-color: #fff; /* Цвет при открытом состоянии */
+}
 @keyframes slide-down {
   from {
     max-height: 3rem;
