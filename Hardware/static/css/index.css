@@ -254,11 +254,9 @@ h5 {
 .table-header {
   cursor: pointer;
   list-style: none;
-  background-color: #fff;
-  color: #363636;
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
-  transition: background-color 0.5s ease, color 0.5s ease;
+  transition: background-color 0.2s ease, color 0.2s ease;
 }
 .table-header::-webkit-details-marker {
   display: none;
