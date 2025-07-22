@@ -258,6 +258,10 @@ h5 {
 .table-header::-webkit-details-marker {
   display: none; /* Убирает маркер в Webkit браузерах */
 }
+.table-header:hover {
+  background-color: #363636;
+  color: #fff;
+}
 
 @keyframes slide-down {
   from {
