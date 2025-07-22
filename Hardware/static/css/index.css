@@ -250,13 +250,14 @@ h5 {
 .spoiler-table:not([open]) {
   animation: slide-up 0.3s ease-in-out;
 }
-
 .table-header {
   cursor: pointer;
-  list-style: none; /* Убирает стандартный маркер */
+  list-style: none;
+  background-color: #fff;
+  color: #363636;
 }
 .table-header::-webkit-details-marker {
-  display: none; /* Убирает маркер в Webkit браузерах */
+  display: none;
 }
 .table-header:hover {
   background-color: #363636;
