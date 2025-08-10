@@ -8,6 +8,7 @@ Feel free to visit our [website](https://eterwait.github.io/Echo/) for more info
 - **Echo** - main code.
 - **Hardware** - 3D models and electronic components.
 - **STM32 code** - STM32 CubeIDE project files.
+- **force_sensor_linearizer_rs485** - force sensor PCB code
 - **Echo.bin** - ready-to-use microcontroller firmware. Download [Cube Programmer](https://www.st.com/en/development-tools/stm32cubeprog.html) and use it to upload the firmware to the board.
 - **Echo.hex** - ready-to-use microcontroller firmware.
 
